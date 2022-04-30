@@ -1,0 +1,21 @@
+
+<div id="print-section">
+  
+<p class="font-weight-bold">Add Highcharts Using In Angular</p>
+
+<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgBhcplevwUKGRs1P-Ps8Mwf2wOwnW_R_JIA&usqp=CAU' alt='image'>
+
+<highcharts-chart 
+  [Highcharts]="Highcharts" 
+  [constructorType]="'stockChart'" 
+  [options]="chartOptions">
+</highcharts-chart>
+
+</div>
+
+
+<button printSectionId="print-section" ngxPrint type="button" class="btn btn-primary">Print</button>
+
+
+
+<router-outlet></router-outlet>
